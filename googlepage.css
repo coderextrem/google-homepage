@@ -1,0 +1,36 @@
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type:none;
+	float:right;
+}
+li {
+	display: inline;
+
+}
+.topbartext {
+	text-decoration:none;
+
+}
+a:hover {
+text-decoration: underline;
+}
+
+.button {
+    background-color: #3369E8; 
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 2px;
+    font-color:white;
+    font-weight:bold;
+}
+#logo {
+	width: 50%;
+	height: 30%;
+	margin: 0 auto;
+}
