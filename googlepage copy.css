@@ -52,8 +52,6 @@ text-decoration: underline;
         width: 300px;
     margin: auto;
     padding-top: 89px;
-    padding-bottom: 15px;
-    padding-left: 25px;
     }
     form {
         display: inline-block;
@@ -61,27 +59,24 @@ text-decoration: underline;
 
     }
     input {
-        height: 32px;
-        width: 550px;
+        height: 38px;
+        width: 500px;
         margin: auto;
-        font-size:14px;
-    
-       
+        font-size:12px;
+        font-weight: bold:;
     }
     .search {
-        width: 550px;
-        margin: 0 auto;
-    
-
+        padding: 200 200 200 200:;
     }
-  .buttongrey {
+  button {
     background-color: #F0F0F0; 
     border: 1px;
     color: black;
     padding: 7px 15px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
+    margin: auto;
     font-size: 14px;
     border-radius: 2px;
     font-color:white;
@@ -93,46 +88,4 @@ text-decoration: underline;
 
 #greybut:hover {
     opacity: 1;
-}
-.icon {
-     background: url(miclogo.png); 
-     background-size: 25px 25px;
-     background-repeat: no-repeat;
-     background-position: right;   
-    
-}
-
-    .bnav {
-        height: 40px;
-    bottom: 0;
-    position:fixed;
-    width:100%;
-    background-color: #F0F0F0
-
-
-        
-    }
-    .mainContainer {
-        width:100%;
-        background-color: #F0F0F0
-
-
-    }
-
-    #spacerleft {
-        padding-left: 16px;
-        margin-top: 20px;
-        font-size: 14px
-    }
-     #spacerright {
-        padding-right: 16px;
-      font-size: 14px
-        
-    }
-.textalign {
-    margin-top: 10px;
-}
-
-a {
-   text-decoration:none; 
 }
